@@ -49,6 +49,6 @@ function delStu(){
 	//5.判断
 	if(flag){
 		//发送到删除学生的action	//1,3,6
-		window.location.href='student-system/student/delete?sids='+sids.substring(0,sids.length-1);
+		window.location.href='/student-system/student/delete?sids='+sids.substring(0,sids.length-1);
 	}
 }
